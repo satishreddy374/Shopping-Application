@@ -1,0 +1,27 @@
+
+.category-list-item {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.category-tab-button {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 6px;
+}
+
+.active-category-tab {
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+.normal-category-tab {
+    background-color: rgb(242, 239, 239);
+    color: rgb(22, 22, 22);
+}
+  
+
+

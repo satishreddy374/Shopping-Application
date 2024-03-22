@@ -1,0 +1,93 @@
+
+
+.profile-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home-page-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+}
+
+.home-page-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.username-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(84, 158, 232);
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+
+.welcome-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(143, 141, 142);
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+
+.online-shopping-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(247, 67, 103);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.home-page-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(161, 158, 158);
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+
+.shop-now-button {
+    background-color: rgb(77, 76, 76);
+    padding: 12px 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    width: 170px;
+}
+
+.shop-now-button:hover {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+
+
+.home-page-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    padding-right: 20px;
+}
+
+.profile-page-image {
+    width: 400px;
+    height: 420px;
+    align-self: flex-end;
+}
+  
+  
+  
+  
+

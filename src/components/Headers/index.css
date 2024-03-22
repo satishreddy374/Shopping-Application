@@ -1,0 +1,112 @@
+
+
+.headers-page-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 10px 20px 10px 20px;
+    position: sticky;
+    top: 0px;
+    background-color: #f8f6f6;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.paths-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.path {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(29, 141, 240);
+    margin-right: 15px; 
+    text-decoration: none;
+}
+
+.path:hover {
+    color: rgb(240, 79, 79);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.logout-button {
+    background-color: rgb(67, 66, 66);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+}
+
+.logout-button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    background-color: #5b5a5a;
+}
+
+.popup-text {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.popup-buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.yes-btn {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(85, 198, 243);
+    border:none;
+    padding: 8px 16px;
+    margin-right: 22px;
+    border-radius: 5px;
+}
+
+.no-btn {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(51, 183, 235);
+    border:none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.line {
+    border: 1px solid rgb(40, 29, 29);
+    width: 98%;
+}
+  
+  
+  
+  
+

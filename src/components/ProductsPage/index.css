@@ -1,0 +1,38 @@
+
+
+.product-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product-page-category-text {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(74, 73, 73);
+    padding-left: 14px;
+    margin-bottom: 6px;
+}
+
+.category-special-text {
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(241, 147, 147);
+}
+  
+.product-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+  
+  
+  
+
+
+
