@@ -3,7 +3,7 @@ import axios from 'axios';
 import "./index.css";
 import {Link} from "react-router-dom";
 import {store} from "../../App"
-import { Navigate } from 'react-router';
+import { Navigate } from 'react-router-dom';
 
 const Login = () => {
 
